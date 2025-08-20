@@ -3,7 +3,7 @@ Analizyng worldwide trends of workout types.
 
 ## Table of contents
 
-- [Repository Structure](#Repository_Structure)
+- [Repository Structure](#repository_structure)
 - [Project Description](#project-description)
 - [Data Origin and structure](#data-origin-and-structure)
 - [Analysis objetives](#analysis-objetives)
