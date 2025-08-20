@@ -12,6 +12,19 @@ The folders and files in this repository are organized as follows:
 ├── images/               # Generated plots and visualizations exported from notebooks
 ├── README.md             # Project documentation and instructions
 ```
+## Table of Contents
+
+*   [Project Description](#project-description)
+*   [Project Objectives](#project-objectives)
+*   [Data](#data)
+*   [Analysis and Results](#analysis-and-results)
+*   [Key Insights](#key-insights)
+*   [How to Run](#how-to-run)
+    *   [Prerequisites](#prerequisites)
+    *   [Using the Notebook](#using-the-notebook)
+    *   [Running the Script](#running-the-script)
+*   [Example Usage](#example-usage)
+*   [Contributing](#contributing)
 
 ## Project description
 
@@ -79,6 +92,22 @@ To run this project and replicate the analysis, follow these steps:
 *   **Python:** Make sure you have Python 3.6 or higher installed.
 *   **Git:** Install Git to clone the repository.
 *   **Libraries:** You will need the `pandas` and `matplotlib` libraries.
+
+### Using the Notebook
+
+You can open and run the analysis step-by-step in a Jupyter environment (like Google Colab, Jupyter Notebook, or JupyterLab).
+
+1.  Ensure you have Jupyter installed (`pip install notebook` or `pip install jupyterlab`).
+2.  Navigate to the root directory of the cloned repository in your terminal.
+3.  Open the notebook file in your preferred Jupyter environment.
+4.  Run the cells sequentially to see the data loading, analysis, and visualizations.
+
+### Running the Script
+
+If you prefer to run the full analysis non-interactively, you can execute the Python script from your terminal.
+
+1.  Navigate to the root directory of the cloned repository in your terminal.
+2.  Run the script using the Python interpreter:
 
 ## Example Usage
 
