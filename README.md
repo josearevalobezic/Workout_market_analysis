@@ -1,45 +1,71 @@
 # Workout_market_analysis
-Analizyng_worldwide_trends_of _workout_types
+Analizyng worldwide trends of workout types.
 
-# Nombre de tu Proyecto
+## Table of contents
 
-¡Bienvenido al repositorio de mi proyecto de análisis de datos!
+## Repository Structure
 
-## Descripción del Proyecto
+The folders and files in this repository are organized as follows:
 
-Este proyecto tiene como objetivo analizar las tendencias de interés global en el ejercicio físico, con un enfoque particular en los entrenamientos en casa ("home workout"), en el gimnasio ("gym workout") y la compra de equipos para el hogar ("home gym"). Se utilizan datos de Google Trends para explorar cómo ha cambiado el interés a lo largo del tiempo y en diferentes regiones, especialmente en el contexto de eventos globales como la pandemia de COVID-19.
+```
+├── data_csv/             # Contains CSV data files for analysis
+├── notebook/            # Jupyter notebooks with step-by-step data analysis and visualizations
+├── script/              # Python scripts for automated data processing and summary tasks
+├── images/               # Generated plots and visualizations exported from notebooks
+├── README.md             # Project documentation and instructions
+```
 
-El análisis se realizó utilizando Python con las librerías Pandas para la manipulación de datos y Matplotlib para la visualización.
+## Project description
 
-## Objetivos del Proyecto
+This project was taken from a learning website calle DataCamp. Aims to analyze global interest trends in physical exercise, with a particular focus on "home workout," "gym workout," and "home gym" equipment purchases. Google Trends data is used to explore how interest has changed over time and across different regions, especially in the context of global events like the COVID-19 pandemic.
 
-*   Analizar la tendencia global del interés en "workout" a lo largo del tiempo.
-*   Comparar las tendencias de interés entre "home workout", "gym workout" y "home gym".
-*   Identificar el impacto de la pandemia de COVID-19 en las tendencias de entrenamiento.
-*   Comparar el interés en "workout" entre diferentes países.
-*   Comparar el interés en "home workout" entre países específicos.
+The analysis was performed using Python with the Pandas library for data manipulation and Matplotlib for visualization.
 
-## Datos
+## Project Objectives
 
-Los datos utilizados en este proyecto provienen de Google Trends y se dividen en cuatro archivos CSV:
+* Analyze the global trend of interest in "workout" over time.
+* Compare interest trends between "home workout," "gym workout," and "home gym."
+* Identify the impact of the COVID-19 pandemic on workout trends.
+* Compare interest in "workout" among different countries.
+* Compare interest in "home workout" between specific countries.
 
-*   `workout.csv`: Contiene el interés global en el término "workout" a lo largo del tiempo.
-*   `three_keywords.csv`: Contiene el interés global en los términos "home workout", "gym workout" y "home gym" a lo largo del tiempo.
-*   `workout_geo.csv`: Contiene el interés en el término "workout" por país.
-*   `three_keywords_geo.csv`: Contiene el interés en los términos "home workout", "gym workout" y "home gym" por país.
+## Data
 
-## Análisis y Resultados
+The data used in this project comes from Google Trends and is divided into four CSV files:
 
-El análisis se presenta en el notebook de Python y cubre los siguientes puntos:
+*   `workout.csv`: Contains the global interest in the term "workout" over time.
+*   `three_keywords.csv`: Contains the global interest in the terms "home workout," "gym workout," and "home gym" over time.
+*   `workout_geo.csv`: Contains the interest in the term "workout" by country.
+*   `three_keywords_geo.csv`: Contains the interest in the terms "home workout," "gym workout," and "home gym" by country.
 
-*   **Tendencia global de "workout"**: Visualización de cómo ha evolucionado el interés global en "workout" a lo largo del tiempo, identificando picos y valles.
-*   **Comparación de tipos de entrenamiento**: Análisis de las tendencias de interés para "home workout", "gym workout" y "home gym", mostrando cómo se comparan entre sí y cómo fueron afectados por eventos como la pandemia.
-*   **Análisis geográfico**: Comparación del interés en "workout" entre países seleccionados y un análisis más detallado de "home workout" en países específicos.
 
-Se incluyen visualizaciones generadas con Matplotlib para ilustrar los hallazgos clave.
+## Analysis and Results
 
-## Cómo Ejecutar el Código
+The analysis is presented in the Python notebook and covers the following points:
 
-Para ejecutar este notebook y replicar el análisis, sigue estos pasos:
+*   **Global "Workout" Trend**: Visualization of how global interest in "workout" has evolved over time, identifying peaks and valleys.
+*   **Workout Type Comparison**: Analysis of interest trends for "home workout," "gym workout," and "home gym," showing how they compare to each other and how they were affected by events like the pandemic.
+*   **Geographic Analysis**: Comparison of interest in "workout" among selected countries and a more detailed analysis of "home workout" in specific countries.
+
+Visualizations generated with Matplotlib are included to illustrate key findings.
+
+## Key Insights
+
+Based on the analysis of the Google Trends data, the following key insights were identified:
+
+*   **Peak Interest in 2020:** Worldwide interest in "workout" saw a significant peak in 2020, likely influenced by the global pandemic and lockdowns.
+
+    (images/wordlwide_workout.png)
+
+      *Manhattan has the highest number of top-performing schools.*
+  
+*   **Shift to Home Workouts during COVID-19:** During the peak of the pandemic, "home workout" interest surged dramatically, surpassing "gym workout" interest.
+*   **Return to Gyms:** Following the initial peak, interest in "gym workout" gradually increased again, while "home workout" interest decreased, suggesting a return to pre-pandemic workout habits for many.
+*   **Geographic Variations:** Interest in "workout" varies significantly by region, with certain countries showing higher overall interest than others (e.g., [Mention specific countries from your analysis, like United States, Australia, Japan]).
+*   **Specific Regional Differences:** Within specific workout types, there are notable differences in interest between countries (e.g., [Mention the comparison between Malaysia and the Philippines for home workout]).
+
+## How to Run the Code
+
+To run this notebook and replicate the analysis, follow these steps:
 
 1.  Clona este repositorio:
