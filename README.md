@@ -1,23 +1,5 @@
 # Workout_market_analysis
 Analizyng worldwide trends of workout types.
-
-## Table of contents
-
-- [Repository Structure](#repository_structure)
-- [Project Description](#project-description)
-- [Data Origin and structure](#data-origin-and-structure)
-- [Analysis objetives](#analysis-objetives)
-- [How to Run](#how-to-run)
-  - [Option 1: Google Colab](#option-1-google-colab)
-  - [Option 2: GitHub Codespaces/Jupyter](#option-2-github-codespacesjupyter)
-  - [Dependencies](#dependencies)
-  - [Example Usage](#example-usage)
-- [Key Findings](#key-findings)
-- [Visualizations](#visualizations)
-  - [Distribution of Top 10 Schools by Borough](#distribution-of-top-10-schools-by-borough)
-  - [SAT Scores by Borough](#sat-scores-by-borough)
-- [Insights and conclusions](#insights-and-conclusions)
-- [Contributing](#contributing)
   
 ## Repository Structure
 
